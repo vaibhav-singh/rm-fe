@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.flex-layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.tile {
+  padding: 10px;
+  margin: 10px;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin: 0 20px;
+}
+
+.button-box {
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.post, .comment-box {
+  border: 1px solid black;
+  margin: 20px 0;
+  padding: 10px;
+}
